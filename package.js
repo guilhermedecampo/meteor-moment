@@ -10,4 +10,5 @@ Package.on_use(function (api, where) {
   api.add_files('lib/moment/moment.js', where);
   api.add_files('export-moment.js', where);
   api.add_files('lib/moment/locale/pt-br.js', 'client')
+  api.add_files('moment-range.js', where);
 });
